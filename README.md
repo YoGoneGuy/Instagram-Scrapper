@@ -12,3 +12,7 @@ A Python tool that downloads Instagram profile pictures.
 
 ## Troubleshoot 
 1) Run twice if it doesn't work 
+
+
+## Upcoming features
+1) Bulk download instagram posts,highlights,stories and pfps
