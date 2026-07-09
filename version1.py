@@ -1,8 +1,16 @@
 import httpx
 from pathlib import Path
 from datetime import datetime 
+import typer
 
-username = input("enter target username")
+app = typer.Typer()
+
+if __name__ == "__main__":
+    app()
+
+@app.command()
+def pfpd():
+    username = input("enter target username")
 
 headers = {
     "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0 Safari/537.36",
@@ -37,3 +45,5 @@ image= httpx.get(pfp_url, headers=headers)
 Path(f"downloads/{filename}.jpg").write_bytes(image.content)
 
 print("completed, check dowmloads folder ")
+
+
