@@ -10,12 +10,19 @@ A Python tool that downloads Instagram profile pictures.
 
 1) step one - open terminal/prompt and run this command 
 
-``` git clone https://github.com/YoGoneGuy/Instagram-Scrapper ```
+``` bash 
+git clone https://github.com/YoGoneGuy/Instagram-Scrapper
+```
 
 2) Step two - run these commands
 
-```pip3 install -r requirements.txt ```
-``` python3 version1.py ```
+``` bash
+pip3 install -r requirements.txt
+ ```
+
+``` bash
+python3 version1.py
+```
 
 3) step three - Enter a valid Instagram username 
 
